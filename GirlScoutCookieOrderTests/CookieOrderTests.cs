@@ -1,7 +1,8 @@
+
 using System;
 using Xunit;
 
-namespace GirlScoutCookieOrderTests
+namespace GirlScoutCookieOrder.Tests
 {
     public class CookieOrderTests
     {
@@ -9,7 +10,7 @@ namespace GirlScoutCookieOrderTests
         public void AddCookiesToYourOrder()
         {
             //Arrange
-            var CookieOrder = new CookieOrder;
+            var cookie = new CookieOrder();
 
             //Act
             cookie.AddToOrder();
